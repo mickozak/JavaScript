@@ -8,9 +8,10 @@ Issues:
 - declaration and initialization,
 - data types,
 - conversion and checking of data types
-- 
--
--
--
--
--
+- operators, 
+- hoisting, scope,
+- conditional instructions,
+- loops,
+- functions, callback, closures,
+- objects,
+- array.
