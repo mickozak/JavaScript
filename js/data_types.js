@@ -22,6 +22,10 @@ let firstName = 'Eliza';
 
 let firstValue = true;
 
+//Null
+
+let firstNull = null;
+
 
 /*Reference data:
 
