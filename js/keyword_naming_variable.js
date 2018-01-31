@@ -1,10 +1,10 @@
-//KEYWORDS
+//Keyword
 
 var //old
 let //ES6
 const //ES6
 
-/*NAMING
+/*Naming
 
 - variable name can not start with a digit,
 - variable name can not contain spaces,
@@ -12,14 +12,14 @@ const //ES6
 
 Use camel notation.*/
 
-//VARIABLE DECLARATION
+//Variable declaration
 
 let firstVariable;
 
-//VARIABLE INITIALIZATION
+//Variable initialization 
 
 firstvariable = 5;
 
-//DECLARATION WITH INITIALIZATION
+//Declaration and initialization
 
 let firstVariable = 5;
