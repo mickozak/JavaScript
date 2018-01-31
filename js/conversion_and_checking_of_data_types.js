@@ -24,3 +24,16 @@ console.log(someVar); //Nan
 
 Number //e.g. (Number('100')) --> 100
 ParseInt //e.g. (parseInt('100b', 10)) --> 100
+
+//Checking data types
+
+//We use the "typeof" instruction to check the data type.
+
+let one = 12;
+let two = 'example';
+let three = [2,3,6];
+
+
+console.log(typeof(one)); //"number"
+console.log(typeof(two)); //"string"
+console.log(typeof(three)); //"object"
