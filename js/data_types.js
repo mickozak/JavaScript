@@ -1,4 +1,4 @@
-There are two types of data: primitive and reference.
+/*There are two types of data: primitive and reference.
 
 Primitive data:
 
@@ -8,8 +8,15 @@ Primitive data:
 - undefined
 - null
 - symbol
+*/
 
-Reference data:
+
+
+/*Reference data:
 
 - objects
 - array
+*/
+
+
+
