@@ -12,7 +12,6 @@ const //ES6
 
 Use camel notation.*/
 
-
 //VARIABLE DECLARATION
 
 let firstVariable;
