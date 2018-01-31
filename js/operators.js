@@ -34,6 +34,8 @@
 || //or
 ! //not
 
+//Most often in a conditional instruction.
+  
 //For example
 
 x = 10;
