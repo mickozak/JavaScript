@@ -23,7 +23,7 @@ console.log(someVar); //Nan
 //Manual conversion function.
 
 Number //e.g. (Number('100')) --> 100
-ParseInt //e.g. (parseInt('100b', 10)) --> 100
+parseInt //e.g. (parseInt('100b', 10)) --> 100
 
 //Checking data types
 
