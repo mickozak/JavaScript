@@ -2,7 +2,7 @@
 
 //General form: if (condition) {statement}
 
-//e.g. 1
+//e.g. 1.
 
 let x = 2;
 
@@ -12,7 +12,7 @@ if (x == 2){
     alert('x!=2')
 }
     
-//e.g. 2
+//e.g. 2.
 
 let answer = prompt('How much money do you want to spend for dinner?');
 
@@ -23,4 +23,29 @@ if (answer<=10){
 } else {
     alert('You can go to the restaurant.')
 }
-    
+
+let stones = prompt('What is the stone?')
+
+//Switch e.g. 3.
+
+switch(stones){
+    case 'ruby':{
+        console.log('You chose ruby.');
+        break;
+    }
+    case 'amethyst':{
+        console.log('You chose amethyst.');
+        break;     
+    }
+    case 'diamond':{
+        console.log('You chose diamond.');
+        break;
+    }
+    case 'emerald':{
+        console.log('You chose emerald.');
+        break;
+    }
+    default: {
+        console.log("I do not know what a stone is.");
+    }
+             }
