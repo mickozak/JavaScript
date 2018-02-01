@@ -24,9 +24,10 @@ if (answer<=10){
     alert('You can go to the restaurant.')
 }
 
-let stones = prompt('What is the stone?')
 
 //Switch e.g. 3.
+
+let stones = prompt('What is the stone?')
 
 switch(stones){
     case 'ruby':{
