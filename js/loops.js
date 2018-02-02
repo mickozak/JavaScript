@@ -16,7 +16,7 @@ console.log(i)
 
 //while 
 
-//e.g.3.
+//e.g.3
 
 let i = 1;
 
