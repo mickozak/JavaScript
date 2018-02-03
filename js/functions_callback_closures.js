@@ -4,23 +4,23 @@ To use a function, you must first define it somewhere in the range from which it
 //Declaration of functions
 
 function sum (a,b) {
-	.......
+	......
 }
 
 //Functional expression
 
 let myFunction = function myFunction (a,b) {
-	.......
+	......
 }
 
 //Fat Arrow
 
 let add = (a,b,c) => {
-	.......
+	......
 }
 
 //Anonymous function
 
 document.querySelector('.title').addEventListener('click', function() {
-	.......
+	......
 });
