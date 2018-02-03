@@ -12,3 +12,9 @@ function sum (a,b) {
 let myFunction = function myFunction (a,b) {
 	.......
 }
+
+//Fat Arrow
+
+let add = (a,b,c) => {
+	.......
+}
