@@ -18,3 +18,9 @@ let myFunction = function myFunction (a,b) {
 let add = (a,b,c) => {
 	.......
 }
+
+//Anonymous function
+
+document.querySelector('.title').addEventListener('click', function() {
+	.......
+});
