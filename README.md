@@ -14,4 +14,5 @@ Issues:
 - loops,
 - functions, callback, closures,
 - objects,
-- array.
+- array,
+- easy apllication quiz.
