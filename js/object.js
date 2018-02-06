@@ -15,3 +15,7 @@ myObj.print();
 //or
 
 console.log(myObj.height);
+
+//adding a new property
+
+myObj.surname = "Everdeen";
