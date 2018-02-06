@@ -7,3 +7,11 @@ let myObj = {
     console.log(this.name)
     }
  }
+
+//Reference to the object
+
+myObj.print();
+
+//or
+
+console.log(myObj.height);
