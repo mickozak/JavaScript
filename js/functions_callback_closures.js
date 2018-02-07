@@ -24,3 +24,16 @@ let add = (a,b,c) => {
 document.querySelector('.title').addEventListener('click', function() {
 	......
 });
+
+//Callback - the function passed to the function argument and then called.
+	
+function calc (a,b,callback){
+	console.log(`Value: ${a} i ${b}`);
+	return callback (a,b)
+}
+	
+function add (a,b){
+	return a+b;
+}
+
+calc(3,5,add);
