@@ -40,10 +40,10 @@ We write the new constructor with a capital letter.*/
 function SuperObj(width, height){
   this.width = width;
   this.height = height;
-  
-  this.print = function(){
-    console.log(this.width + "x" + this.height)
-  }
+}
+
+SuperObj.prototype.print = function (){
+     return this.width + ' ' + this.height;
 }
 
 let objOne = new SuperObj(200, 500);
