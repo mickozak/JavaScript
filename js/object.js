@@ -59,3 +59,8 @@ function Animal (name,age){
     this.age = age;
     this.type = 'animal';
 }
+
+Animal.prototype.eat = function (){
+    return this.name + ' - eat';
+}
+
