@@ -71,4 +71,6 @@ function Cat (name){
 
 Cat.prototype = Object.create(Animal.prototype);
 
+let max = new Cat ('Max');
 
+console.log(max.eat());
