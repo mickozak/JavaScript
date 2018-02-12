@@ -68,3 +68,7 @@ function Cat (name){
     this.name = name;
     this.type = 'cat';
 }
+
+Cat.prototype = Object.create(Animal.prototype);
+
+
