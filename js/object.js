@@ -64,3 +64,7 @@ Animal.prototype.eat = function (){
     return this.name + ' - eat';
 }
 
+function Cat (name){
+    this.name = name;
+    this.type = 'cat';
+}
