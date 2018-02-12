@@ -51,3 +51,11 @@ let objTwo = new SuperObj(300, 500);
 let objThree = new SuperObj(100, 500);
 
 objOne.print();
+
+//Heirdom - for example:
+
+function Animal (name,age){
+    this.name = name;
+    this.age = age;
+    this.type = 'animal';
+}
