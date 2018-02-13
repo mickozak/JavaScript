@@ -25,4 +25,14 @@ while (i <=50) {
     i++;
 }
 
-//Loop forEach - it is useful when, for example, you have an array with some elements and you want to do something for each of these elements.
+//Loop forEach - it is useful when, for example, you have an array with some elements and
+//you want to do something for each of these elements.
+
+//e.g.4
+
+let car = ['Audi','Bmw', 'Fiat', 'Toyota'];
+
+car.forEach(function(elements,index,array){
+    index++;
+    console.log(index + '. ' + elements);
+});
