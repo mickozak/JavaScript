@@ -24,3 +24,5 @@ while (i <=50) {
     console.log('I will go...');
     i++;
 }
+
+//Loop forEach - it is useful when, for example, you have an array with some elements and you want to do something for each of these elements.
