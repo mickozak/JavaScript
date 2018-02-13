@@ -40,3 +40,8 @@ car.forEach(function(elements,index,array){
 //The loop do...while- repeats the instructions inside until the condition returns false.
 
 //e.g.5
+
+do {
+  i += 1;
+  console.log(i);
+} while (i < 5);
