@@ -25,7 +25,7 @@ while (i <=50) {
     i++;
 }
 
-//Loop forEach - it is useful when, for example, you have an array with some elements and
+//The loop forEach - it is useful when, for example, you have an array with some elements and
 //you want to do something for each of these elements.
 
 //e.g.4
@@ -36,3 +36,7 @@ car.forEach(function(elements,index,array){
     index++;
     console.log(index + '. ' + elements);
 });
+
+//The loop do...while- repeats the instructions inside until the condition returns false.
+
+//e.g.5
