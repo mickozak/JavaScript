@@ -74,3 +74,7 @@ Cat.prototype = Object.create(Animal.prototype);
 let max = new Cat ('Max');
 
 console.log(max.eat());
+
+//Factory - this is the place that some objects create for us using a pattern.
+
+
