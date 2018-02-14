@@ -15,3 +15,7 @@ function askQuestion (questionQuiz){
         alert('The wrong answer. ' + 'The correct answer is: ' + questionQuiz[1] + ' .');
     }
 }
+
+for (let i=0; i<questionQuiz.length; i++) {
+    askQuestion(questionQuiz[i]);
+} 
