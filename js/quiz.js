@@ -19,3 +19,6 @@ function askQuestion (questionQuiz){
 for (let i=0; i<questionQuiz.length; i++) {
     askQuestion(questionQuiz[i]);
 } 
+
+let message = 'Your score: ' + score;
+document.write(message);
