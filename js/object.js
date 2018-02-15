@@ -103,3 +103,15 @@ let Car = function(name){
 }
 
 let audi = Car ('Audi')
+
+//Call - in addition to calling the function, the call method gives us very important functionality. 
+//In its parameter, we can pass an object that will be substituted for this function.
+
+let sandra = {
+    name: 'Sandra',
+    surname: 'Nowacka',
+    age: 25,
+    print: function(){
+        console.log('Name: ' + this.name + ' Surname: ' + this.surname + ' Age: ' + this.age)
+                     }
+}
