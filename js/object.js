@@ -115,3 +115,12 @@ let sandra = {
         console.log('Name: ' + this.name + ' Surname: ' + this.surname + ' Age: ' + this.age)
                      }
 }
+
+let angelica = {
+    name: 'Angelica',
+    surname: 'Shepard',
+    age: 29
+  
+}
+
+sandra.print.call(angelica);
