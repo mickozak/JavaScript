@@ -98,3 +98,8 @@ let Car = function(name){
             console.log(carName);
         }
     }
+
+  return carNew;
+}
+
+let audi = Car ('Audi')
