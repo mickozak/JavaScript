@@ -85,3 +85,10 @@ let Car = function(name){
         carName = '';
     }
 
+  let equipment = function() {
+        if (carName==='Audi'){
+            return 'Premium class'
+        } else {return 'Standard class'}
+    }
+  
+  
