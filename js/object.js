@@ -91,4 +91,10 @@ let Car = function(name){
         } else {return 'Standard class'}
     }
   
-  
+  let carNew = {
+        name: carName,
+        equipment: equipment,
+        print: function() {
+            console.log(carName);
+        }
+    }
