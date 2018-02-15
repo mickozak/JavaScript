@@ -77,4 +77,11 @@ console.log(max.eat());
 
 //Factory - this is the place that some objects create for us using a pattern.
 
+let Car = function(name){
+    
+    let carName = name;
+    
+    if (typeof carName === undefined) {
+        carName = '';
+    }
 
