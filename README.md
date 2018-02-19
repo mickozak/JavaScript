@@ -15,4 +15,5 @@ Issues:
 - functions, callback, closures,
 - objects,
 - array,
+- interval functions,
 - easy apllication quiz.
