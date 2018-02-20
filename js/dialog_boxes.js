@@ -7,3 +7,14 @@ function myAlert(){
 function myPrompt(){
     let myPrompt = prompt('What is your name?','Name...');
 }
+
+function myConfirm(){
+    let myConfirm = confirm('Do you have 18 years?');
+    if(myConfirm==true){
+        alert('You can come in...')
+    } else{alert('You can not come in...')}
+}
+
+myAlert();
+myPrompt();
+myConfirm();
