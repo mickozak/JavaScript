@@ -16,5 +16,5 @@ Issues:
 - objects,
 - array,
 - interval functions,
-- dialog_boxes,
+- dialog boxes,
 - easy apllication quiz.
