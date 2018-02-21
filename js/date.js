@@ -1,3 +1,5 @@
+//The object Date() allows you to manipulate time and date.
+
 //For example:
 
 let currentDate = new Date();
