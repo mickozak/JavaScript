@@ -17,4 +17,5 @@ Issues:
 - array,
 - interval functions,
 - dialog boxes,
+- date,
 - easy apllication quiz.
