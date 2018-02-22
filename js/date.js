@@ -51,7 +51,7 @@ if (currentHour > 0 && currentHour < 6) {
 //Setting the date and time
 //For example:
 
-let time = new Date(2008,4,12,15,24,18);    
+let time = new Date(2010,5,10,12,20,12);    
 
 let timeNew = time.getHours() + ':' + time.getMinutes() + ':' + time.getSeconds();
     
@@ -59,4 +59,11 @@ document.querySelector('#elementFive').innerHTML=timeNew;
 
 //or
 
+let currentDateOne = new Date();
+    currentDateOne.setHours(19);
+    currentDateOne.setMinutes(40);
+    currentDateOne.setSeconds(20);
 
+let textTwo = currentDateOne.getHours() + ':' + currentDateOne.getMinutes() + ':' + currentDateOne.getSeconds();
+
+document.querySelector('#elementSix').innerHTML=textTwo;
