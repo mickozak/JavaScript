@@ -18,4 +18,5 @@ Issues:
 - interval functions,
 - dialog boxes,
 - date,
+- storage,
 - easy apllication quiz.
