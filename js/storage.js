@@ -10,3 +10,7 @@ let ob = {
 
 localStorage.setItem('myElements',JSON.stringify(ob));
 
+let retObject = localStorage.getItem('myElements');
+    
+console.log(JSON.parse(retObject));
+
