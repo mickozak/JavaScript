@@ -31,3 +31,11 @@ let arrayWeek = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Sa
 let elementThree = document.querySelector('#divThreeTest');
     
 elementThree.innerHTML='Today is: ' + arrayWeek[currentDate.getDay()];
+
+//For example:
+
+let currentDate = new Date();
+    
+let currentHour = currentDate.getHours();
+    
+let elementFour = document.querySelector('#elementFour');
