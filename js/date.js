@@ -47,3 +47,16 @@ if (currentHour > 0 && currentHour < 6) {
 } else if (currentHour>=9 && currentHour<19) {
     elementFour.innerHTML = 'Work, work, work, ...'
 } else { elementFour.innerHTML = 'Time to go to sleep '};
+
+//Setting the date and time
+//For example:
+
+let time = new Date(2008,4,12,15,24,18);    
+
+let timeNew = time.getHours() + ':' + time.getMinutes() + ':' + time.getSeconds();
+    
+document.querySelector('#elementFive').innerHTML=timeNew;
+
+//or
+
+
