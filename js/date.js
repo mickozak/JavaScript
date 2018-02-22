@@ -39,3 +39,11 @@ let currentDate = new Date();
 let currentHour = currentDate.getHours();
     
 let elementFour = document.querySelector('#elementFour');
+
+if (currentHour > 0 && currentHour < 6) {
+    elementFour.innerHTML='Middle of the night';
+} else if (currentHour>=6 && currentHour<9) {
+    elementFour.innerHTML = 'Get up you are wasting a day'
+} else if (currentHour>=9 && currentHour<19) {
+    elementFour.innerHTML = 'Work, work, work, ...'
+} else { elementFour.innerHTML = 'Time to go to sleep '};
