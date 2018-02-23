@@ -20,3 +20,7 @@ console.log(Math.floor(2,34));
 
 console.log(Math.ceil(7,65));
 
+const x = Math.random();
+
+console.log(x);
+
