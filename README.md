@@ -10,6 +10,7 @@ Issues:
 - conversion and checking of data types
 - operators, 
 - hoisting, scope,
+- math,
 - conditional instructions,
 - loops,
 - functions, callback, closures,
