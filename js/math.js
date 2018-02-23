@@ -24,3 +24,13 @@ const x = Math.random();
 
 console.log(x);
 
+//Drawing a number:
+
+const min = 1;
+
+const max = 20;
+
+const random = Math.floor(Math.random()*max)+min;
+
+console.log(random);
+
