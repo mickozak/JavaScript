@@ -38,6 +38,18 @@ function calc (a,b,callback){
 	return callback (a,b)
 }
 	
+//Closure - functions declared within closings 'remember' the environment in which they were created.
+
+function hello(name){
+    return function(day){
+        console.log(`Hi ${name} on this sunny ${day}`);
+    }
+}
+
+const user = hello('Jan');
+console.log(user);
+console.log(user('Monday'));
+	
 function add (a,b){
 	return a+b;
 }
