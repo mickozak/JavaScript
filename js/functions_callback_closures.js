@@ -18,6 +18,12 @@ let myFunction = function myFunction (a,b) {
 let add = (a,b,c) => {
 	......
 }
+	
+//IIFE (Immediately Invoked Function Expression) - immediate function call.
+
+(function iife(){
+    
+})();
 
 //Anonymous function
 
