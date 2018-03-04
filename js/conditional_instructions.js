@@ -49,3 +49,8 @@ switch(stones){
         console.log("I do not know what a stone is.");
     }
              }
+
+//Conditional operator - a short version of the "if" condition.
+
+let b = prompt('How much have you money?');
+const control = (b>=1000) ? console.log('a lot of money...') : console.log('little money');
