@@ -37,3 +37,12 @@ let objThree ={
 }
 
 three.call(objThree);
+
+//#4
+
+function four (c){
+    this.c = c;
+}
+    
+let variableFour = new four(7);
+console.log(variableFour.c);
