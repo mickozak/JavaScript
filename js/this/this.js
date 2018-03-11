@@ -14,3 +14,16 @@ var variableOne = 2;
 one();
 
 //#2
+
+function two(){
+    console.log(this.a);
+}
+    
+let objTwo = {
+    a: 20,
+    two: two
+}
+
+objTwo.two();
+
+//#3
