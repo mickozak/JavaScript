@@ -27,3 +27,13 @@ let objTwo = {
 objTwo.two();
 
 //#3
+
+function three(){
+    console.log(this.b);
+}
+    
+let objThree ={
+    b: 30
+}
+
+three.call(objThree);
