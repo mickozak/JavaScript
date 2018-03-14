@@ -1,3 +1,5 @@
+//JavaScript - script programming language, created by Netscape, most commonly used on websites.
+
 //Script on the site.
 
 //To place the scripts on the page, use the <script> tag.
