@@ -12,6 +12,6 @@
 
 //We place the script in the "head" section.
 
-<script src="name.js"></script>
+<script src="general_information.js"></script>
 
 //You can attach two attributes: async and defer.
