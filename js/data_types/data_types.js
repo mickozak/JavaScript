@@ -25,6 +25,11 @@ console.log(firstName);
 let firstValue = true;
 console.log(firstValue);
 
+//Undefined
+
+let firstUndefined = undefined;
+console.log(firstUndefined);
+
 //Null
 
 let firstNull = null;
@@ -49,5 +54,4 @@ console.log(firstObject);
 //Array
 
 let firstArray = [2,3,4,5,6];
-console.log(firstArray)
-
+console.log(firstArray);
