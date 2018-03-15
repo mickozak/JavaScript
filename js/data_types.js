@@ -13,18 +13,22 @@ Primitive data:
 //Number
 
 let firstNumber = 10;
+console.log(firstNumber);
 
 //String
 
 let firstName = 'Eliza';
+console.log(firstName);
 
 //Boolean
 
 let firstValue = true;
+console.log(firstValue);
 
 //Null
 
 let firstNull = null;
+console.log(firstNull);
 
 
 /*Reference data:
@@ -40,8 +44,10 @@ let firstObject = {
   surname: 'Taylor',
   age: 28
 }
+console.log(firstObject);
 
 //Array
 
 let firstArray = [2,3,4,5,6];
+console.log(firstArray)
 
