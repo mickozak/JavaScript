@@ -1,5 +1,5 @@
-# Operators
-<cite>
+/*Operators
+
 + addition
 - subtration
 * multiplication
@@ -33,7 +33,4 @@ Logical operators
 && and
 || or
 ! not
-
-Most often in a conditional instruction.
-
-</cite>
+*/
