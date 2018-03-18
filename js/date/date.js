@@ -2,15 +2,15 @@
 
 //For example:
 
-let currentDate = new Date();
+let currentDateOneA = new Date();
     
-console.log(currentDate);
+console.log(currentDateOneA);
 
 //For example:
     
 let element = document.querySelector('#divOneTest');
 
-element.innerHTML='It is: ' + currentDate.getHours() + ':' + currentDate.getMinutes();
+element.innerHTML='It is: ' + currentDateOneA.getHours() + ':' + currentDateOneA.getMinutes();
 
 //For example:
     
@@ -22,7 +22,7 @@ function showZero (i){
 
 let elementTwo = document.querySelector('#divTwoTest');
 
-elementTwo.innerHTML='Today is: ' + showZero(currentDate.getDate()) + '.' + showZero(currentDate.getMonth()+1) + '.' + currentDate.getFullYear();
+elementTwo.innerHTML='Today is: ' + showZero(currentDateOneA.getDate()) + '.' + showZero(currentDateOneA.getMonth()+1) + '.' + currentDateOneA.getFullYear();
 
 //For example:
     
@@ -30,13 +30,13 @@ let arrayWeek = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Sa
 
 let elementThree = document.querySelector('#divThreeTest');
     
-elementThree.innerHTML='Today is: ' + arrayWeek[currentDate.getDay()];
+elementThree.innerHTML='Today is: ' + arrayWeek[currentDateOneA.getDay()];
 
 //For example:
 
-let currentDate = new Date();
+let currentDateTwoB = new Date();
     
-let currentHour = currentDate.getHours();
+let currentHour = currentDateTwoB.getHours();
     
 let elementFour = document.querySelector('#elementFour');
 
