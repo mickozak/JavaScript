@@ -1,8 +1,8 @@
 //Keyword
 
-var //old
-let //ES6
-const //ES6
+// var - old
+// let - ES6
+// const - ES6
 
 /*Naming
 
@@ -18,8 +18,11 @@ let firstVariable;
 
 //Variable initialization 
 
-firstvariable = 5;
+firstVariable = 5;
 
 //Declaration and initialization
 
-let firstVariable = 5;
+let secondVariable = 10;
+
+console.log(firstVariable);
+console.log(secondVariable);
