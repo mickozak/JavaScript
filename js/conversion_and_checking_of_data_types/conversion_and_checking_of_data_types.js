@@ -2,21 +2,21 @@
 
 //For example
 
-let someVar = 'He is' + 28;
-console.log(someVar); //'He is 28'
+let someVarOne = 'He is ' + 28;
+console.log(someVarOne); //'He is 28'
 
-let someVar = '32' + 5;
-console.log(someVar); //'325'
+let someVarTwo = '32' + 5;
+console.log(someVarTwo); //'325'
 
 let someValue = '25';
-let someArrey = [3];
+let someArray = [3];
 console.log(someValue + someArray); //'253'
 
-let someVar = '32' - 5;
-console.log(someVar); //27
+let someVarThree = '32' - 5;
+console.log(someVarThree); //27
 
-let someVar = '32a' - 5;
-console.log(someVar); //Nan
+let someVarFour = '32a' - 5;
+console.log(someVarFour); //Nan
 
 //Adding gives more opportunity than subtraction. Possibility to use conversions in multiplication and division.
 
