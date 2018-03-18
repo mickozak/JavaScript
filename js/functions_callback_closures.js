@@ -4,19 +4,19 @@ To use a function, you must first define it somewhere in the range from which it
 //Declaration of functions
 
 function sum (a,b) {
-	......
+
 }
 
 //Functional expression
 
 let myFunction = function myFunction (a,b) {
-	......
+
 }
 
 //Fat Arrow
 
 let add = (a,b,c) => {
-	......
+
 }
 	
 //IIFE (Immediately Invoked Function Expression) - immediate function call.
@@ -24,12 +24,6 @@ let add = (a,b,c) => {
 (function iife(){
     
 })();
-
-//Anonymous function
-
-document.querySelector('.title').addEventListener('click', function() {
-	......
-});
 
 //Callback - the function passed to the function argument and then called.
 	
@@ -50,7 +44,7 @@ const user = hello('Jan');
 console.log(user);
 console.log(user('Monday'));
 	
-function add (a,b){
+function addNew (a,b){
 	return a+b;
 }
 
