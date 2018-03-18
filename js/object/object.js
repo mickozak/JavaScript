@@ -3,6 +3,7 @@
 let myObj = {
   name: "Sara",
   age: 27,
+  height: 157,
   print: function(){
     console.log(this.name)
     }
@@ -19,6 +20,7 @@ console.log(myObj.height);
 //adding a new property
 
 myObj.surname = "Everdeen";
+myObj.size = "XS";
 
 //removing properties
 
@@ -43,7 +45,7 @@ function SuperObj(width, height){
 }
 
 SuperObj.prototype.print = function (){
-     return this.width + ' ' + this.height;
+     console.log(this.width + ' ' + this.height);
 }
 
 let objOne = new SuperObj(200, 500);
@@ -115,6 +117,8 @@ let sandra = {
         console.log('Name: ' + this.name + ' Surname: ' + this.surname + ' Age: ' + this.age)
                      }
 }
+
+sandra.print();
 
 let angelica = {
     name: 'Angelica',
