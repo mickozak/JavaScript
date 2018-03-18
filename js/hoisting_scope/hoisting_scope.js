@@ -2,13 +2,17 @@
 
 //e.g.
 
+/*
 function one () {
    console.log(b);
    let b=10;
 }
+*/
 
 function one () {
-  let b;
-  console.log(b);
-  b=10;
+    let b;
+    b=10;
+    console.log(b);
 }
+
+one();
