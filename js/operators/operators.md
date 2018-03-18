@@ -1,5 +1,5 @@
 # Operators
-
+<cite>
 + addition
 - subtration
 * multiplication
@@ -35,3 +35,5 @@ Logical operators
 ! not
 
 Most often in a conditional instruction.
+
+</cite>
