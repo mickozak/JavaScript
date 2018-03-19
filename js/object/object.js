@@ -39,6 +39,18 @@ The last level of search is Grand Master.*/
 We can create a class using the usual function. 
 We write the new constructor with a capital letter.*/
 
+function CarNew (speed, driver){
+  this.speed = speed;
+  this.driver = driver;
+  this.print = function(){
+    console.log(this.speed + this.driver)
+  }
+}
+
+let carNewTwo = new CarNew(50, "Audi");
+console.log(carNewTwo);
+
+
 function SuperObj(width, height){
   this.width = width;
   this.height = height;
