@@ -24,4 +24,4 @@ Issues:
 - easy apllication quiz,
 - data structure,
   - array (forEach, unshift, shift, pop, push, splice, slice, join, contact, indexOf, array.filter, array.find, array.reduce, array.map),
-  - object ().
+  - object (hasOwnProperty, Object.value, Object.keys, Object.entries, For...in).
