@@ -22,4 +22,4 @@ Issues:
 - date,
 - storage,
 - easy apllication quiz
-- data structure (forEach, unshift, shift, pop, push, splice, slice, join, contact,indexOf).
+- data structure (forEach, unshift, shift, pop, push, splice, slice, join, contact, indexOf, array.filter, array.find, array.reduce, array.map).
