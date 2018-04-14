@@ -21,5 +21,7 @@ Issues:
 - this,
 - date,
 - storage,
-- easy apllication quiz
-- data structure (forEach, unshift, shift, pop, push, splice, slice, join, contact, indexOf, array.filter, array.find, array.reduce, array.map).
+- easy apllication quiz,
+- data structure,
+  - array (forEach, unshift, shift, pop, push, splice, slice, join, contact, indexOf, array.filter, array.find, array.reduce, array.map),
+  - object ().
