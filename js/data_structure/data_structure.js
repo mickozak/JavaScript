@@ -52,3 +52,37 @@ console.log(six);
 var seven = arrayThree.join(',');
 
 console.log(seven);
+
+//array.filter
+
+var eight = [1,2,3,4,5,6,1,2,2,7,8,9]
+
+var nine = eight.filter(function (value, index, array) {
+    return value == 1
+})
+
+console.log(nine);
+
+//array.find
+
+var ten = eight.find(function (value,index,array) {
+    return value > 6;
+})
+
+console.log(ten);
+
+//array.reduce
+
+var eleven = eight.reduce(function (result, value, index, array) {
+   return result + value
+},5);
+
+console.log(eleven);
+
+//array.map
+
+var twelve = eight.map(function (value,index,array){
+  return value + 3;
+})
+
+console.log(twelve)
