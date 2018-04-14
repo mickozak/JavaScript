@@ -21,4 +21,5 @@ Issues:
 - this,
 - date,
 - storage,
-- easy apllication quiz.
+- easy apllication quiz
+- data structure (forEach, unshift, shift, pop, push, splice, slice, join, contact,indexOf).
