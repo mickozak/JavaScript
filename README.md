@@ -25,4 +25,4 @@ Issues:
 - data structure,
   - array (forEach, unshift, shift, pop, push, splice, slice, join, contact, indexOf, array.filter, array.find, array.reduce, array.map),
   - object (hasOwnProperty, Object.value, Object.keys, Object.entries, For...in),
-- ES6 (arrow function, spread, rest, template strings, class, decomposition).
+- ES6 (arrow function, spread, rest, template strings, class, object, decomposition, modules, symbol).
