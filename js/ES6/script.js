@@ -84,3 +84,45 @@ class Cats extends Animal{
 
 const objCat = new Cats('Max')
 console.log(objCat)
+
+//OBJECT
+
+//1
+var animalFirst = 'rabbit'
+var animalSecond = 'fish'
+
+var animalAll = {
+    animalFirst,
+    animalSecond
+}
+console.log(animalAll)
+
+//2
+const obY = {
+    name : "Marcin",
+    pet : "Max",
+    printName() {
+        console.log(`My name is: ${this.name}`);
+    }
+}
+console.log(obY)
+
+//3
+const objMenOne = {
+    name: 'Max',
+    age: 18
+}
+
+const objHuman = {
+    footSize: 36
+}
+
+Object.assign(objMenOne,objHuman)
+console.log(objMenOne)
+
+//SYMBOL
+
+const yourObj = {}
+const move = Symbol('my move methode')
+yourObj[move]='top'
+console.log(yourObj)
