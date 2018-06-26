@@ -49,3 +49,16 @@ function addNew (a,b){
 }
 
 calc(3,5,add);
+
+function mix(txt) {
+    let newTxt = '';
+
+    for (let i=0; i<txt.length; i++) {
+        if (i % 2 === 0) {
+            newTxt += txt.charAt(i).toUpperCase();
+        } else {
+            newTxt += txt.charAt(i).toLowerCase();
+        }
+    }
+    return newTxt;
+}
